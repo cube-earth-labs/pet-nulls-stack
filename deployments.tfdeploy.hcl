@@ -14,11 +14,3 @@ deployment "prod" {
     instances        = 3
   }
 }
-
-deployment "prod-dr" {
-  variables = {
-    prefix           = "prod-dr"
-    instances        = 1
-  }
-}
-
