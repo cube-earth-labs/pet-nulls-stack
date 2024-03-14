@@ -1,16 +1,16 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-deployment "simple" {
+deployment "dev" {
   variables = {
-    prefix           = "simple"
+    prefix           = "dev"
     instances        = 1
   }
 }
 
-deployment "complex" {
+deployment "prod" {
   variables = {
-    prefix           = "complex"
-    instances        = 4
+    prefix           = "prod"
+    instances        = 3
   }
 }
